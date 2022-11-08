@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>INVENI - Login</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.9.1
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/montserrat-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="assets/css/cssregistration/css/style.css"/>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">INVENI</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          
+          <li><a class="nav-link scrollto " href="index.html">Início</a></li>
+          
+          <!--<li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+            
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>-->
+          <li><a class="getstarted scrollto" href="login.V1.html">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Início</a></li>
+          <li>Registrar</li>
+        </ol>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <div class="page-content">
+      <div class="form-v10-content">
+        <form class="form-detail" action="#" method="post" id="myform">
+          <div class="form-left">
+            <h2>Informações Gerais</h2>
+  
+            <div class="form-group">
+              <div class="form-row form-row-1">
+                <input type="text" name="first_name" id="first_name" class="input-text" placeholder="Nome da Empresa" required>
+              </div>
+              <div class="form-row form-row-2">
+                <input type="text" name="last_name" id="last_name" class="input-text" placeholder="Inscrição Estadual" required>
+              </div>
+            </div>
+            <div class="form-row form-row-2">
+              <input type="text" name="last_name" id="last_name" class="input-text" placeholder="CNPJ" required>
+            </div>
+            <div class="form-row">
+              <select name="title">
+                  <option class="option" value="title">Segmento da empresa</option>
+                  <option class="option" value="businessman">Tintura</option>
+                  <option class="option" value="reporter">Material Prima</option>
+                  <option class="option" value="secretary">Secretary</option>
+              </select>
+              <span class="select-btn">
+                  <i class="zmdi zmdi-chevron-down"></i>
+              </span>
+            </div>
+            <div class="form-row">
+              <select name="position">
+                  <option value="position">Position</option>
+                  <option value="director">Director</option>
+                  <option value="manager">Manager</option>
+                  <option value="employee">Employee</option>
+              </select>
+              <span class="select-btn">
+                  <i class="zmdi zmdi-chevron-down"></i>
+              </span>
+            </div>
+            <div class="form-row">
+              <input type="text" name="company" class="company" id="company" placeholder="Company" required>
+            </div>
+            <div class="form-group">
+              <div class="form-row form-row-3">
+                <input type="text" name="business" class="business" id="business" placeholder="Business Arena" required>
+              </div>
+              <div class="form-row form-row-4">
+                <select name="employees">
+                    <option value="employees">Employees</option>
+                    <option value="trainee">Trainee</option>
+                    <option value="colleague">Colleague</option>
+                    <option value="associate">Associate</option>
+                </select>
+                <span class="select-btn">
+                    <i class="zmdi zmdi-chevron-down"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="form-right">
+            <h2>Detalhes de contato</h2>
+            <div class="form-row">
+              <input type="text" name="street" class="street" id="street" placeholder="Endereço" required>
+            </div>
+            <div class="form-row">
+              <input type="text" name="additional" class="additional" id="additional" placeholder="Complemento" required>
+            </div>
+            <div class="form-group">
+              <div class="form-row form-row-1">
+                <input type="text" name="zip" class="zip" id="zip" placeholder="CEP" required>
+              </div>
+              <div class="form-row form-row-2">
+                <select name="place">
+                    <option value="place">Place</option>
+                    <option value="Street">Street</option>
+                    <option value="District">District</option>
+                    <option value="City">City</option>
+                </select>
+                <span class="select-btn">
+                    <i class="zmdi zmdi-chevron-down"></i>
+                </span>
+              </div>
+            </div>
+            <div class="form-row">
+              <select name="country">
+                  <option value="country">Estado</option>
+                  <option value="Vietnam">Vietnam</option>
+                  <option value="Malaysia">Malaysia</option>
+                  <option value="India">India</option>
+              </select>
+              <span class="select-btn">
+                  <i class="zmdi zmdi-chevron-down"></i>
+              </span>
+            </div>
+            <div class="form-row">
+              <select name="country">
+                  <option value="country">Cidade</option>
+                  <option value="Vietnam">Vietnam</option>
+                  <option value="Malaysia">Malaysia</option>
+                  <option value="India">India</option>
+              </select>
+              <span class="select-btn">
+                  <i class="zmdi zmdi-chevron-down"></i>
+              </span>
+            </div>
+            <div class="form-group">
+              <div class="form-row form-row-1">
+                <input type="text" name="code" class="code" id="code" placeholder="DD" required>
+              </div>
+              <div class="form-row form-row-2">
+                <input type="text" name="phone" class="phone" id="phone" placeholder="Número" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}" placeholder="Seu e-mail">
+            </div>
+            <div class="form-checkbox">
+              <label class="container"><p>Eu aceito os <a href="#" class="text">termos e condições</a> deste site.</p>
+                  <input type="checkbox" name="checkbox">
+                  <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="form-row-last">
+              <input type="submit" name="register" class="register" value="Registrar">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>INVENI</h3>
+            <p>
+              www.inveni.com.br <br>
+            
+              Brasil <br><br>
+              <strong>Phone:</strong> (16) 99750-1841<br>
+              <strong>Email:</strong> contato@inveni.com.br<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links Utéis</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Sobre</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Serviços</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Termos de Serviço</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Politica de Privacidade</a></li>
+            </ul>
+          </div>
+
+          <!--<div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>-->
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nossa rede social</h4>
+            <p>Fique por dentro com nossos acontecimentos!</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
